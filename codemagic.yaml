@@ -2,8 +2,7 @@ workflows:
   android_build:
     name: Build Android App (Java)
     max_build_duration: 60
-    environment:
-      flutter:{}
+    environment: {}
     scripts:
       - name: Grant execute permission for gradlew
         script: chmod +x ./gradlew
